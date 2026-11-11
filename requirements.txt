@@ -1,0 +1,12 @@
+# core (simulation mode)
+python-dotenv
+requests
+
+# optional: real language model
+openai
+
+# optional: voice and camera
+# SpeechRecognition
+# PyAudio
+# numpy
+# opencv-python

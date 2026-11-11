@@ -1,0 +1,35 @@
+# secrets and personal data — never commit
+.env
+*.env
+!.env.example
+cookies*.txt
+*.keystore
+*.jks
+*.pem
+*.key
+
+# runtime output
+*.log
+*.mp3
+*.wav
+capture*.jpg
+captures/
+
+# models and calibration (kept private)
+*.onnx
+calibration*.json
+calibration*.yaml
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# editors / OS
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
